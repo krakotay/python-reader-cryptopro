@@ -5,7 +5,6 @@ from datetime import datetime
 import polars as pl
 from pathlib import Path
 from time import time
-
 TMP_DIR = Path('tmp')
 TMP_DIR.mkdir(exist_ok=True)
 
